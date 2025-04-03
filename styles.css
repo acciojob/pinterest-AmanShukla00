@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 50px;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Text Content */
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Explore Button */
+.explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e60023;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #b3001b;
+}
+
+/* Hero Image */
+.hero img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
